@@ -1,0 +1,114 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.header--title {
+	font-size: 32px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(
+		to right bottom,
+		rgb(55, 123, 185),
+		rgb(3, 51, 94)
+	);
+	background-size: cover;
+	color: white;
+	padding: 75px;
+}
+
+.practice-desc {
+	margin: 6rem 14rem;
+	line-height: 1.5;
+	font-size: 1.4rem
+}
+
+.practice-desc a {
+	text-decoration: none;
+	color: #005199;
+}
+
+.practice-desc ul {
+  margin-left: 2rem;
+}
+
+.wrapper {
+	margin: 5rem 11rem;
+	padding: 3rem 0;
+	text-align: center;
+	background: white;
+}
+
+button.accordion {
+	background: #ddd;
+	color: #005199;
+	cursor: pointer;
+	border: 0px;
+	padding: 18px;
+	margin: 30px 0;
+	width: 90%;
+	text-align: left;
+	font-size: 1.5rem;
+	transition: .4s;
+}
+
+button:focus {
+	outline: none;
+}
+
+button.accordion.active, button.accordion:hover {
+	background: #ccc;
+}
+
+div.panel {
+	padding: 0 18px;
+	max-height: 0;
+	overflow: hidden;
+	text-align: left;
+	line-height: 1.4;
+	width: 80%;
+	margin: 0 auto;
+	transition: max-height .2s ease-in-out;
+	color: black;
+	text-transform: none;
+	font-size: 1.4rem;
+}
+
+.panel ul {
+  margin: 1rem;
+}
+
+.panel li {
+  margin-left: 1rem;
+  font-size: 1.2rem;
+}
+
+.faq-heading {
+  color: #555;
+  font-size: 2rem;
+  margin-top: 4rem;
+}
+
+.desc-h4 {
+  margin-bottom: 1rem;
+}
+
+.panel p {
+	font-family:
+}
+
+.rules-desc {
+	margin: 6rem 14rem;
+	line-height: 1.5;
+	font-size: 1.5rem;
+}
+
+.rules-desc a {
+	text-decoration: none;
+	color: #005199;
+}

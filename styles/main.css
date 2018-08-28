@@ -1,0 +1,405 @@
+/*
+font-family: 'Cormorant', serif; 600, 700
+font-family: 'Lora', serif;
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: 'Cormorant', serif;
+  font-weight: 700;
+  font-size: 64px;
+}
+
+h2 {
+  font-family: 'Cormorant', serif;
+  font-weight: 600;
+  font-size: 64px;
+}
+
+p {
+  font-family: 'Lora', serif;
+  font-size: 18px;
+}
+
+/**********************NAVBAR**********************************************/
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d2d2d2;
+  position: relative;
+}
+
+.navbar--img {
+  height: 80px;
+  margin-left: 75px;
+}
+
+.navbar--list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+#law {
+  margin-right: 25px
+}
+
+.navbar--list-item {
+  padding: 30px;
+}
+
+.navbar--list-item:hover {
+  background-color: #ddd;
+}
+
+.navbar--list-item a {
+  text-decoration: none;
+  color: #555;
+  font-family: 'Cormorant', serif;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+#dropdown {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  right: 0;
+  top: 78px;
+  background: #eee;
+  border-left: 5px solid #f8f8f8;
+  border-bottom: 5px solid #e8e8e8;
+}
+
+#dropdown a {
+  padding: 25px 30px;
+  text-align: center;
+  text-decoration: none;
+  color: #555;
+  font-family: Cormorant;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+#dropdown a:hover {
+  background: #ddd
+}
+
+/*********************************HERO***************************************************/
+
+.hero {
+  height: 88vh;
+  width: 100vw;
+  background-image: linear-gradient( to right bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/LindleyPhotos/FrontElevation2.JPG");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+}
+
+.hero--text {
+  height: 30vh;
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: ;
+  margin-right: 10%;
+  padding: 20px;
+}
+
+.hero--text h1 {
+  margin-bottom: 40px;
+}
+
+.hero--text p {
+  font-size: 18px;
+}
+
+/**********************************ABOUT******************************************/
+
+.about {
+  height: 88vh;
+  width: 100vw;
+  background-color: #173b60;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+}
+
+.about--text {
+  height: 30vh;
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: ;
+  margin-left: 10%;
+  padding: 20px;
+}
+
+.about--text h2 {
+  margin-bottom: 40px;
+}
+
+/************************************PRACTICE****************************************/
+
+.practice {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to right bottom, rgb(55, 123, 185), rgb(3, 51, 94));
+  background-size: cover;
+  color: white;
+}
+
+.practice--text {
+  padding-top: 6rem;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-gap: 30px 30px;
+  grid-template-areas: ". . ." ". . ." ". . .";
+  padding: 4rem 0 8rem 0;
+}
+
+.practice img {
+  height: 80px;
+}
+
+.practice--grid-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+
+.practice--grid-link h4 {
+  padding-top: 20px;
+}
+
+.practice--grid-link p {
+  color: white;
+}
+
+.grid-a {
+  text-decoration: none;
+}
+
+/***********************************TESTIMONIALS*****************************************/
+
+.testimonials {
+  height: 70vh;
+  background-image: linear-gradient( to right bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/LindleyPhotos/FrontElevation2.JPG");
+  background-size: cover;
+  background-position: center;
+  overflow: scroll;
+}
+
+.testimonials--heading {
+  padding-top: 6rem;
+  text-align: center;
+  color: #fff;
+}
+
+.boxy {
+  margin: 120px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.test {
+  height: 250px;
+  width: 700px;
+  background: rgba(250, 250, 250, 0.8);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: black;
+  padding: 30px;
+  margin: 30px;
+}
+
+.name {
+  font-size: 1.7rem;
+}
+
+.comp {
+  font-size: 1.1rem;
+  padding-bottom: 5px;
+}
+
+.boxy img {
+  width: 150px;
+  border-radius: 150%;
+  padding: 10px;
+}
+
+.name2 {
+  font-size: 1.7rem;
+}
+
+.comp2 {
+  font-size: 1.1rem;
+  padding-bottom: 5px;
+}
+
+.test2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 700px;
+  padding: 10px
+}
+
+/******************************RESOURCES********************************************************/
+
+.resources {
+	background: #d232a9;
+}
+
+.button {
+	background: rgba(136, 136, 136, 0.7);
+	padding: 20px 60px;
+	width: 250px;
+	border: 3px solid white;
+	display: flex;
+	justify-content: space-between;
+	text-transform: uppercase;
+}
+
+.resources--heading {
+	padding: 2rem;
+	text-align: center;
+	font-size: 36px;
+}
+
+.btn {
+	text-decoration: none;
+	color: whitesmoke;
+}
+
+.middle-btn {
+	padding: 11px 20px;
+}
+
+i {
+	color: whitesmoke;
+	margin-left: 10px;
+}
+
+.middle-icon {
+	margin-top: 8px
+}
+
+.resources--btn {
+	display: flex;
+	justify-content: space-around;
+	margin: 2rem 12rem 0 12rem;
+}
+
+.court-links {
+	margin-bottom: 8rem;
+}
+
+/*********************FOOTER***************************************************************/
+
+
+
+footer {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-column-gap: 50px;
+	background: #ededed;
+	padding: 100px;
+	height: 500px;
+}
+
+.footer-left {
+	display: grid;
+	justify-items: center;
+	align-items: center;
+}
+
+.footer-left img:last-of-type {
+	align-self: flex-start;
+}
+
+.footer-right {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.footer-right h2 {
+	width: 250px;
+	margin: 0 auto;
+	font-size: 46px;
+}
+
+.info {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 40px auto;
+	width: 40vw;
+}
+
+.ph-off {
+	margin-left: -40px;
+}
+
+.ph {
+	margin: 30px 0;
+}
+
+.office {
+
+}
+
+.st-mail {
+
+}
+
+.street {
+	margin: 30px 0;
+}
+
+.mail {
+
+}
+
+.sub-footer {
+	background: #555;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 40px;
+	text-transform: uppercase;
+}
+
+.sub-footer p {
+  font-size: 14px;
+}

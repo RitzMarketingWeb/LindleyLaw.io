@@ -1,0 +1,78 @@
+
+.container {
+	display: flex;
+  flex-direction: column;
+	justify-content: space-around;
+}
+
+.about--trey {
+  background-image: linear-gradient( to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../assets/LindleyPhotos/trey_desk.jpg");
+  background-size: cover;
+  background-position: top;
+  padding: 12rem 16rem;
+}
+
+.about--satie {
+  background-image: linear-gradient( to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../assets/LindleyPhotos/satie_desk.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 12rem 16rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.about--katherine {
+  background-image: linear-gradient( to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../assets/LindleyPhotos/kat_desk.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 12rem 16rem;
+}
+
+.about-name2 {
+	height: 500px;
+	width: 500px;
+	text-align: center;
+	padding: 30px;
+	background: whitesmoke;
+	border: 4px solid rgba(224, 224, 224, .90);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.about-name2 h2 {
+	font-size: 32px;
+  text-transform: uppercase;
+}
+
+.about-name2 h3 {
+	font-size: 36px;
+	margin: 10px 0 20px 0;
+  text-transform: uppercase;
+}
+
+.about-name2 p {
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+.about-name2 .button {
+	margin-top: 20px;
+	background: #e5e5e5;
+	padding: 20px 60px;
+	width: 250px;
+	border: 3px solid #377BB9;
+	display: flex;
+	justify-content: space-between;
+	text-transform: uppercase;
+}
+
+.about-name2 .btn {
+	color: #377BB9;
+}
+
+.blue-line {
+  height: 8px;
+  background-color: #377BB9;
+  border: none;
+}
