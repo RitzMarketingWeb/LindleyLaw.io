@@ -1,0 +1,27 @@
+.bio {
+  display: flex;
+  margin: 5rem;
+
+}
+
+.bio-honors  {
+  width: 35%;
+  padding-right: 2rem;
+}
+
+.bio-honors img {
+  width: 85%;
+}
+
+.bio-honors h3 {
+  margin: 1rem 0 .5rem 0;
+}
+
+.bio-honors ul {
+  list-style: none;
+}
+
+.bio-desc {
+  width: 65%;
+  padding-left: 1rem;
+}

@@ -112,3 +112,14 @@ div.panel {
 	text-decoration: none;
 	color: #005199;
 }
+
+.faq-p a {
+	color: #ccc;
+	text-decoration: none;
+}
+
+.faq-p {
+	text-transform: none;
+	width:70%;
+	line-height: 1.4;
+}
