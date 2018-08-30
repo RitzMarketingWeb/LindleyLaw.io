@@ -1,7 +1,28 @@
+.about-name2 {
+	height: 400px;
+}
+
+.about--satie2 {
+  background-image:url("../assets/LindleyPhotos/IMG_7954 copy.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 12rem 16rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.about--katherine2 {
+  background-image: linear-gradient( to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../assets/LindleyPhotos/kat_desk.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 12rem 16rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
 .bio {
   display: flex;
   margin: 5rem;
-
 }
 
 .bio-honors  {
