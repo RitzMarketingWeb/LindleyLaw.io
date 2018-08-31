@@ -107,5 +107,6 @@ input, textarea {
   position: absolute;
   width: 45%;
   height: 51%;
-  right: 12%
+  right: 12%;
+	z-index: 50;
 }

@@ -12,13 +12,28 @@ font-family: 'Lora', serif;
 h1 {
   font-family: 'Cormorant', serif;
   font-weight: 700;
-  font-size: 64px;
+  font-size: 4rem;
+  text-transform: uppercase;
 }
 
 h2 {
   font-family: 'Cormorant', serif;
   font-weight: 600;
-  font-size: 64px;
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+
+h3{
+  font-family: 'Cormorant', serif;
+  font-weight: 600;
+  font-size: 2.3rem;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-family: 'Cormorant', serif;
+  font-weight: 600;
+  font-size: 1.6rem
 }
 
 p {
@@ -98,13 +113,13 @@ p {
 .hero {
   height: 88vh;
   width: 100vw;
-  background-image: linear-gradient( to right bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/LindleyPhotos/FrontElevation2.JPG");
+  background-image: linear-gradient( to right bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../assets/LindleyPhotos/IMG_7844 (1).jpg");
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  color: white;
+
 }
 
 .hero--text {
@@ -114,29 +129,36 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: ;
   margin-right: 10%;
-  padding: 20px;
+  padding: 30px;
+  background-color: rgba(208, 208, 208, 0.95);
+  border-bottom: 8px solid #eee;
+  border-top: 8px solid #eee;
+  border-right: 8px solid #ddd;
+  border-left: 8px solid #ddd;
+  color: rgb(60, 60, 60);
 }
 
 .hero--text h1 {
   margin-bottom: 40px;
+  font-size: 3.2rem;
 }
 
-.hero--text p {
-  font-size: 18px;
-}
 
 /**********************************ABOUT******************************************/
 
 .about {
   height: 88vh;
   width: 100vw;
-  background-color: #173b60;
+  background: rgb(255,255,255);
+  background: -moz-linear-gradient(169deg, rgba(255,255,255,1) 6%, rgba(221,221,221,1) 51%);
+  background: -webkit-linear-gradient(169deg, rgba(255,255,255,1) 6%, rgba(221,221,221,1) 51%);
+  background: linear-gradient(169deg, rgba(255,255,255,1) 6%, rgba(221,221,221,1) 51%);
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-around;
   align-items: center;
-  color: white;
+  color: rgb(60, 60, 60);
+  padding: 10rem;
 }
 
 .about--text {
@@ -147,12 +169,37 @@ p {
   justify-content: center;
   align-items: center;
   background-color: ;
-  margin-left: 10%;
   padding: 20px;
+  line-height: 1.5;
 }
 
 .about--text h2 {
   margin-bottom: 40px;
+}
+.about--btn {
+  margin: 40px;
+  padding: 10px 40px;
+  border: 3px solid rgb(40, 91, 150);
+  color: rgb(40, 91, 150);
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: .2s;
+}
+
+.about--btn:hover {
+  color: white;
+  border: 3px solid white;
+  background-color: rgb(115, 115, 115);
+}
+
+.about img {
+  width: 50%;
+  border-top: 13px solid #bbb;
+  border-bottom: 13px solid #bbb;
+  border-left: 13px solid #ccc;
+  border-right: 13px solid #ccc;
+  /* padding: 15px; */
+
 }
 
 /************************************PRACTICE****************************************/
@@ -175,9 +222,10 @@ p {
   height: 100%;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
-  grid-gap: 30px 30px;
+  grid-gap: 20px 20px;
   grid-template-areas: ". . ." ". . ." ". . .";
-  padding: 4rem 0 8rem 0;
+  padding: 4rem 6rem;
+  padding-bottom: 6rem;
 }
 
 .practice img {
@@ -208,7 +256,7 @@ p {
 
 .testimonials {
   height: 70vh;
-  background-image: linear-gradient( to right bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/LindleyPhotos/FrontElevation2.JPG");
+  background-image: linear-gradient( to right bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/LindleyPhotos/IMG_7850.jpg");
   background-size: cover;
   background-position: center;
   overflow: scroll;
@@ -238,6 +286,7 @@ p {
   color: black;
   padding: 30px;
   margin: 30px;
+  border: 8px solid #eee;
 }
 
 .name {
@@ -270,19 +319,21 @@ p {
   justify-content: space-between;
   align-items: center;
   width: 700px;
-  padding: 10px
+  padding: 10px;
+  border: 8px solid #eee;
 }
 
 /******************************RESOURCES********************************************************/
 
 .resources {
-	background: #d232a9;
+  background-image: linear-gradient( to right bottom, rgba(0, 0, 20, 0.6), rgba(0, 0, 20, 0.6)), url("http://www.seasongoodlaw.com/wp-content/uploads/2018/03/law-books.jpg");
+  padding: 3rem;
+  border: 30px solid #bbb;
 }
 
 .button {
-	background: rgba(136, 136, 136, 0.7);
-	padding: 20px 60px;
-	width: 250px;
+	background: rgba(255, 255, 255, 0.7);
+	padding: 30px 70px;
 	border: 3px solid white;
 	display: flex;
 	justify-content: space-between;
@@ -292,31 +343,25 @@ p {
 .resources--heading {
 	padding: 2rem;
 	text-align: center;
-	font-size: 36px;
+	font-size: 3.2rem;
+  color: white;
 }
 
 .btn {
 	text-decoration: none;
-	color: whitesmoke;
+	color: black;
+  text-align: center;
 }
 
 .middle-btn {
-	padding: 11px 20px;
-}
-
-i {
-	color: whitesmoke;
-	margin-left: 10px;
-}
-
-.middle-icon {
-	margin-top: 8px
+	padding: 30px;
 }
 
 .resources--btn {
 	display: flex;
 	justify-content: space-around;
 	margin: 2rem 12rem 0 12rem;
+  font-size: 24px;
 }
 
 .court-links {
@@ -350,12 +395,20 @@ footer {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
+  color: #2f52aa;
+
 }
 
 .footer-right h2 {
-	width: 250px;
+	width: 300px;
 	margin: 0 auto;
-	font-size: 46px;
+	text-transform: uppercase;
+  font-size: 3rem
+}
+
+.footer-right h3 {
+  font-size: 2rem;
+  text-transform: uppercase;
 }
 
 .info {
@@ -374,6 +427,12 @@ footer {
 	margin: 30px 0;
 }
 
+.ph a {
+  font-size: 1.3rem;
+  color: #2f52aa;
+  text-decoration: none;
+}
+
 .office {
 
 }
@@ -384,10 +443,11 @@ footer {
 
 .street {
 	margin: 30px 0;
+  font-size: 1.3rem
 }
 
 .mail {
-
+  font-size: 1.3rem
 }
 
 .sub-footer {

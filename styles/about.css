@@ -34,19 +34,19 @@
 	text-align: center;
 	padding: 30px;
 	background: whitesmoke;
-	border: 4px solid rgba(224, 224, 224, .90);
+	border: 7px solid rgba(224, 224, 224, .90);
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
 .about-name2 h2 {
-	font-size: 32px;
+	font-size: 3rem;
   text-transform: uppercase;
 }
 
 .about-name2 h3 {
-	font-size: 36px;
+	font-size: 2.2rem;
 	margin: 10px 0 20px 0;
   text-transform: uppercase;
 }
