@@ -9,17 +9,21 @@ font-family: 'Lora', serif;
   box-sizing: border-box;
 }
 
+html {
+  font-size: 16px;
+}
+
 h1 {
   font-family: 'Cormorant', serif;
   font-weight: 700;
-  font-size: 4rem;
+  font-size: 3.2rem;
   text-transform: uppercase;
 }
 
 h2 {
   font-family: 'Cormorant', serif;
   font-weight: 600;
-  font-size: 4rem;
+  font-size: 3.5rem;
   text-transform: uppercase;
 }
 
@@ -38,7 +42,7 @@ h4 {
 
 p {
   font-family: 'Lora', serif;
-  font-size: 18px;
+  font-size: 1.1rem;
 }
 
 /**********************NAVBAR**********************************************/
@@ -52,8 +56,8 @@ p {
 }
 
 .navbar--img {
-  height: 90px;
-  margin-left: 75px;
+  height: 5.625rem;
+  margin-left: 4.6rem;
 }
 
 .navbar--list {
@@ -64,11 +68,11 @@ p {
 }
 
 #law {
-  margin-right: 25px
+  margin-right: 1.5rem
 }
 
 .navbar--list-item {
-  padding: 40px 30px;
+  padding: 2.5rem 1.875rem;
 }
 
 .navbar--list-item:hover {
@@ -95,12 +99,12 @@ p {
 }
 
 #dropdown a {
-  padding: 25px 30px;
+  padding: 1.5rem 1.875rem;
   text-align: center;
   text-decoration: none;
   color: #555;
   font-family: Cormorant;
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-transform: uppercase;
 }
 
@@ -113,9 +117,9 @@ p {
 .hero {
   height: 88vh;
   width: 100vw;
-  background-image: linear-gradient( to right bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../assets/LindleyPhotos/IMG_7844 (1).jpg");
+  background-image: linear-gradient( to right bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../assets/LindleyPhotos/IMG_7850.jpg");
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -123,32 +127,32 @@ p {
 }
 
 .hero--text {
-  height: 30vh;
-  width: 30vw;
+  height: 20rem;
+  width: 50rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   margin-right: 10%;
-  padding: 30px;
+  padding: 3rem;
   background-color: rgba(208, 208, 208, 0.95);
-  border-bottom: 8px solid #eee;
-  border-top: 8px solid #eee;
-  border-right: 8px solid #ddd;
-  border-left: 8px solid #ddd;
+  border-bottom: .5rem solid #eee;
+  border-top: .5rem solid #eee;
+  border-right: .5rem solid #ddd;
+  border-left: .5rem solid #ddd;
   color: rgb(60, 60, 60);
 }
 
 .hero--text h1 {
-  margin-bottom: 40px;
-  font-size: 3.2rem;
+  margin-bottom: 1.5rem;
 }
 
 
 /**********************************ABOUT******************************************/
 
 .about {
-  height: 88vh;
+  height: 85vh;
   width: 100vw;
   background: rgb(255,255,255);
   background: -moz-linear-gradient(169deg, rgba(255,255,255,1) 6%, rgba(221,221,221,1) 51%);
@@ -169,16 +173,17 @@ p {
   justify-content: center;
   align-items: center;
   background-color: ;
-  padding: 20px;
+  padding: 1.25rem;
   line-height: 1.5;
 }
 
 .about--text h2 {
-  margin-bottom: 40px;
+  margin-bottom: 2.5rem;
 }
+
 .about--btn {
-  margin: 40px;
-  padding: 10px 40px;
+  margin: 2.5rem;
+  padding: .625rem 2.5rem;
   border: 3px solid rgb(40, 91, 150);
   color: rgb(40, 91, 150);
   text-decoration: none;
@@ -194,12 +199,10 @@ p {
 
 .about img {
   width: 50%;
-  border-top: 12px solid #ccc;
-  border-bottom: 12px solid #ccc;
-  border-left: 13px solid #bbb;
-  border-right: 13px solid #bbb;
-  /* padding: 15px; */
-
+  border-top: .75rem solid #ccc;
+  border-bottom: .75rem solid #ccc;
+  border-left: .8125rem solid #bbb;
+  border-right: .8125rem solid #bbb;
 }
 
 /************************************PRACTICE****************************************/
@@ -222,14 +225,14 @@ p {
   height: 100%;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
-  grid-gap: 20px 20px;
+  grid-gap: 1.25rem 1.25rem;
   grid-template-areas: ". . ." ". . ." ". . .";
   padding: 4rem 6rem;
   padding-bottom: 6rem;
 }
 
 .practice img {
-  height: 80px;
+  height: 5rem;
 }
 
 .practice--grid-link {
@@ -241,7 +244,7 @@ p {
 }
 
 .practice--grid-link h4 {
-  padding-top: 20px;
+  padding-top: 1.25rem;
 }
 
 .practice--grid-link p {
@@ -256,7 +259,7 @@ p {
 
 .testimonials {
   height: 70vh;
-  background-image: linear-gradient( to right bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/LindleyPhotos/IMG_7850.jpg");
+  background-image: linear-gradient( to right bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/LindleyPhotos/IMG_7844 (1).jpg");
   background-size: cover;
   background-position: center;
   overflow: scroll;
@@ -269,24 +272,24 @@ p {
 }
 
 .boxy {
-  margin: 120px 0;
+  margin: 11.25rem 0;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
 .test {
-  height: 250px;
-  width: 700px;
+  height: 15.625rem;
+  width: 43.75rem;
   background: rgba(250, 250, 250, 0.8);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   color: black;
-  padding: 30px;
-  margin: 30px;
-  border: 8px solid #eee;
+  padding: 1.875rem;
+  margin: 1.875rem;
+  border: .5rem solid #eee;
 }
 
 .name {
@@ -299,9 +302,9 @@ p {
 }
 
 .boxy img {
-  width: 150px;
+  width: 9.375rem;
   border-radius: 150%;
-  padding: 10px;
+  padding: .625rem;
 }
 
 .name2 {
@@ -318,9 +321,9 @@ p {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 700px;
-  padding: 10px;
-  border: 8px solid #eee;
+  width: 43.75rem;
+  padding: .625rem;
+  border: .5rem solid #eee;
 }
 
 /******************************RESOURCES********************************************************/
@@ -328,12 +331,12 @@ p {
 .resources {
   background-image: linear-gradient( to right bottom, rgba(0, 0, 20, 0.6), rgba(0, 0, 20, 0.6)), url("http://www.seasongoodlaw.com/wp-content/uploads/2018/03/law-books.jpg");
   padding: 3rem;
-  border: 30px solid #bbb;
+  border: 1.875rem solid #bbb;
 }
 
 .button {
 	background: rgba(255, 255, 255, 0.7);
-	padding: 30px 70px;
+	padding: 1.875rem 4.375rem;
 	border: 5px solid white;
 	display: flex;
 	justify-content: space-between;
@@ -354,14 +357,14 @@ p {
 }
 
 .middle-btn {
-	padding: 30px;
+	padding: 1.875rem;
 }
 
 .resources--btn {
 	display: flex;
 	justify-content: space-around;
 	margin: 2rem 12rem 0 12rem;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 .court-links {
@@ -375,10 +378,10 @@ p {
 footer {
 	display: grid;
 	grid-template-columns: 1fr 2fr;
-	grid-column-gap: 50px;
+	grid-column-gap: 3.125rem;
 	background: #ededed;
-	padding: 100px;
-	height: 500px;
+	padding: 5rem;
+	height: 31.25rem;
 }
 
 .footer-left {
@@ -388,7 +391,18 @@ footer {
 }
 
 .footer-left img:last-of-type {
-	align-self: flex-start;
+	align-self: flex-end;
+}
+
+.icons {
+  display: flex;
+
+}
+
+.icons img {
+  height: 1.5rem;
+  align-self: flex-start;
+  margin: 0 .625rem;
 }
 
 .footer-right {
@@ -400,10 +414,10 @@ footer {
 }
 
 .footer-right h2 {
-	width: 300px;
+	width: 31.25rem;
 	margin: 0 auto;
 	text-transform: uppercase;
-  font-size: 3rem
+  font-size: 3.2rem
 }
 
 .footer-right h3 {
@@ -415,16 +429,16 @@ footer {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	margin: 40px auto;
+	margin: 1rem auto;
 	width: 40vw;
 }
 
 .ph-off {
-	margin-left: -40px;
+	margin-left: -2.5rem;
 }
 
 .ph {
-	margin: 30px 0;
+	margin: 1.875rem 0;
 }
 
 .ph a {
@@ -433,16 +447,8 @@ footer {
   text-decoration: none;
 }
 
-.office {
-
-}
-
-.st-mail {
-
-}
-
 .street {
-	margin: 30px 0;
+	margin: 1.875rem 0;
   font-size: 1.3rem
 }
 
@@ -456,10 +462,162 @@ footer {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 15px 40px;
+	padding: 1rem 2.5rem;
 	text-transform: uppercase;
 }
 
 .sub-footer p {
-  font-size: 14px;
+  font-size: .875rem;
+}
+
+@media (max-width: 1920px) {
+  html {
+    font-size: 15px;
+  }
+
+  .hero--text {
+    height: 18rem;
+    width: 45rem;
+    padding: 2.75rem
+  }
+
+  .hero--text h1 {
+    margin-bottom: 1rem;
+  }
+
+  .testimonials {
+    overflow: hidden;
+  }
+
+  .testimonials--heading {
+    padding-top: 4rem;
+  }
+}
+
+@media (max-width: 1680px) {
+  html {
+    font-size: 14px;
+  }
+
+  .hero--text {
+    height: 18rem;
+    width: 40rem;
+  }
+
+  .hero--text h1 {
+    font-size: 3rem
+  }
+
+  .about--text h2 {
+    margin-bottom: 1.875rem;
+    font-size: 3rem
+  }
+
+  .about img {
+    width: 53%;
+  }
+
+  .boxy {
+    margin: 7rem 0;
+  }
+
+  .logo {
+    width: 70%
+  }
+
+}
+
+@media (max-width: 1440px) {
+  html {
+    font-size: 13px;
+  }
+
+  .about--text h2 {
+    margin-bottom: 1.5rem;
+    font-size: 3rem
+  }
+
+  .about img {
+    width: 58%;
+  }
+
+  .resources--btn {
+  	display: flex;
+  	justify-content: space-around;
+  	margin: 2rem 12rem 0 12rem;
+    font-size: 1.25rem;
+  }
+
+  .resources {
+    background-position: right;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 1200px) {
+  html{
+    font-size: 11.5px;
+  }
+
+  .about {
+    padding: 0 6rem;
+  }
+
+  .about--text h2 {
+    margin-bottom: 1.2rem;
+    font-size: 2.5rem
+  }
+
+  .about img {
+    width: 58%;
+  }
+
+  .resources {
+    background-position: right;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 1024px) {
+  html {
+    font-size: 10px;
+  }
+
+  .hero {
+    height: 85vh;
+  }
+
+  .hero--text {
+    width: 40rem;
+    padding: 2.75rem;
+  }
+
+  .about {
+    padding: 0 4rem;
+    height: 70vh;
+  }
+
+  .about--text h2 {
+    margin-bottom: 1rem;
+    font-size: 2.3rem
+  }
+
+  .about img {
+    width: 58%;
+  }
+
+  .testimonials {
+    height: 60vh;
+  }
+
+  .resources {
+    background-position: right;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 8px;
+  }
 }

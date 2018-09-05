@@ -1,14 +1,14 @@
 .about-name2 {
-	height: 400px;
+	height: 420px;
 }
 
 .about--satie2 {
-  background-image:url("../assets/LindleyPhotos/IMG_7954 copy.jpg");
+  background-image:url("../assets/LindleyPhotos/IMG_7954.jpg");
   background-size: cover;
   background-position: center;
   padding: 12rem 16rem;
   display: flex;
-  justify-content: flex-start;
+  justify-content: flex-end;
 }
 
 .about--katherine2 {

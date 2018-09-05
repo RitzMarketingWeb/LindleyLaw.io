@@ -29,10 +29,11 @@
 }
 
 .about-name2 {
-	height: 500px;
+	height: 520px;
 	width: 500px;
 	text-align: center;
 	padding: 30px;
+	padding-bottom: 20px;
 	background: whitesmoke;
 	border: 7px solid rgba(224, 224, 224, .90);
 	display: flex;
@@ -43,6 +44,7 @@
 .about-name2 h2 {
 	font-size: 3rem;
   text-transform: uppercase;
+
 }
 
 .about-name2 h3 {
@@ -63,7 +65,7 @@
 	width: 250px;
 	border: 3px solid #377BB9;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	text-transform: uppercase;
 }
 

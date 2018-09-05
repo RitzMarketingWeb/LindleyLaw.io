@@ -34,15 +34,17 @@
   <!--***********************************Content****************************************-->
 
   <section class="contact">
+    <div class="map"></div>
     <div class="heading">
       <h1>Contact Us</h1>
     </div>
     <div class="form-title">
       <p>The use of the Internet or this form for communication with the firm or any individual member of the firm does not establish an attorney-client relationship. Confidential or time-sensitive information should not be sent through this form.</p>
+      <br>
+      <!-- <p style="font-size: 1.2rem">Please fill out as much information as possible to better handle your request.<br><br>
+      </p> -->
     </div>
     <form id="contact" action="contact.php" method="post">
-      <p>Please fill out as much information as possible to better handle your request.<br><br>
-      </p>
       <fieldset>
         <input placeholder="Name" type="text" tabindex="1" required autofocus>
       </fieldset>
@@ -61,21 +63,27 @@
         </fieldset>
       </div>
       <fieldset>
-        <textarea placeholder="Tell us how we can help you" tabindex="6" required></textarea>
+        <textarea placeholder="Tell us how we can help you" tabindex="6" id="texta" required></textarea>
       </fieldset>
       <fieldset>
         <button name="submit" tabindex="7" type="submit">Submit</button>
       </fieldset>
     </form>
 
-    <img src="assets/LindleyPhotos/map.png" id="map" alt="">
+    <!-- <img src="assets/LindleyPhotos/map.png" id="map" alt=""> -->
 
   </section>
 
   <footer>
     <div class="footer-left">
       <img src="assets/logos/LindleyLaw-Logo.png" alt="">
-      <img src="https://via.placeholder.com/200x30" alt="">
+      <div class="icons">
+        <img src="assets/Icons/facebook.svg" alt="">
+        <img src="assets/Icons/twitter.svg" alt="">
+        <img src="assets/Icons/linkedin-in.svg" alt="">
+        <img src="assets/Icons/google-plus-g.svg" alt="">
+        <img src="assets/Icons/instagram.svg" alt="">
+      </div>
     </div>
     <div class="footer-right">
       <h2>Contact Us</h2>
