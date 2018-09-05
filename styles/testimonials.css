@@ -1,5 +1,5 @@
 .header--title {
-	font-size: 32px;
+	font-size: 2rem;
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	display: flex;
@@ -13,7 +13,7 @@
 	);
 	background-size: cover;
 	color: white;
-	padding: 60px;
+	padding: 3.75rem;
 }
 
 .testimonials {
@@ -31,7 +31,7 @@
 }
 
 .boxy {
-  margin: 120px 80px;
+  margin: 7.5rem 5rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -39,16 +39,16 @@
 }
 
 .test {
-  height: 250px;
-  width: 700px;
+  height: 15.625rem;
+  width: 43.75rem;
   background: rgba(250, 250, 250, 0.8);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   color: black;
-  padding: 30px;
-  margin: 30px;
+  padding: 1.875rem;
+  margin: 1.875rem;
 }
 
 .name {
@@ -61,9 +61,9 @@
 }
 
 .boxy img {
-  width: 150px;
+  width: 9.375rem;
   border-radius: 150%;
-  padding: 10px;
+  padding: .625rem;
 }
 
 .name2 {
@@ -79,10 +79,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 700px;
-  height: 250px;
+  width: 43.75rem;
+  height: 15.625rem;
   background: rgba(250, 250, 250, 0.8);
-  padding: 30px;
-  margin: 30px;
+  padding: 1.875rem;
+  margin: 1.875rem;
 
 }

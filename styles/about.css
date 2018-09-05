@@ -29,11 +29,11 @@
 }
 
 .about-name2 {
-	height: 520px;
-	width: 500px;
+	height: 32.5rem;
+	width: 31.25rem;
 	text-align: center;
-	padding: 30px;
-	padding-bottom: 20px;
+	padding: 1.875rem;
+	padding-bottom: 1.25rem;
 	background: whitesmoke;
 	border: 7px solid rgba(224, 224, 224, .90);
 	display: flex;
@@ -49,20 +49,20 @@
 
 .about-name2 h3 {
 	font-size: 2.2rem;
-	margin: 10px 0 20px 0;
+	margin: .625rem 0 1.25rem 0;
   text-transform: uppercase;
 }
 
 .about-name2 p {
-	font-size: 18px;
+	font-size: 1.125rem;
 	line-height: 1.5;
 }
 
 .about-name2 .button {
-	margin-top: 20px;
+	margin-top: 1.25rem;
 	background: #e5e5e5;
-	padding: 20px 60px;
-	width: 250px;
+	padding: 1.25rem 3.75rem;
+	width: 15.625rem;
 	border: 3px solid #377BB9;
 	display: flex;
 	justify-content: center;

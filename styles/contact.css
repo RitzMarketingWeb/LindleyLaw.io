@@ -27,7 +27,7 @@
 }
 
 .heading {
-  font-size: 32px;
+  font-size: 2rem;
   letter-spacing: 2px;
   text-transform: uppercase;
 	grid-column: 1;
@@ -67,10 +67,10 @@ fieldset {
 #contact textarea {
   border: 1px solid #aaa;
   border-radius: 5px;
-	font-size: 18px;
+	font-size: 1.125rem;
   background-color: rgba(238, 238, 238, .85);
   margin: 0 0 5px;
-  padding: 16px;
+  padding: 1rem;
 	width: 100%;
 	font-family: 'Lora', serif;
 }
@@ -91,8 +91,8 @@ fieldset {
   background: #eee;
   color: #2869c9;
   /* margin: 0 0 5px; */
-  padding: 15px;
-  font-size: 18px;
+  padding: 1rem;
+  font-size: 1rem;
 	transition: .3s;
 }
 
