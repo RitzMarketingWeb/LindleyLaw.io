@@ -60,3 +60,42 @@
 	text-decoration: underline;
 	text-transform: uppercase;
 }
+
+@media (max-width: 500px) {
+
+	h2 {
+		font-size: 2.5rem
+	}
+
+	h3 {
+		font-size: 2rem;
+	}
+
+	.top {
+		padding-top: 9rem
+	}
+
+	.links--wrapper {
+		flex-direction: column;
+		margin: 4rem;
+		text-align: center;
+	}
+
+	.court-resources {
+	  width: 100%;
+	}
+
+	.links--wrapper ul li {
+		list-style: none;
+		font-size: 1.8rem;
+		line-height: 1.6
+	}
+
+	.bar-assc  {
+		margin-top: 3rem;
+	}
+
+	.govmnt {
+		margin-top: 3rem
+	}
+}

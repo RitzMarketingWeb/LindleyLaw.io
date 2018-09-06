@@ -57,6 +57,34 @@ p {
 
 .navbar-mobile {
   display: none;
+  justify-content: space-between;
+  position: fixed;
+  background-color: white;
+  width: 100vw;
+  align-items: center;
+  padding-right: 1rem;
+}
+
+.navbar--logo-mobile {
+  width: 25rem;
+}
+
+.hamburger {
+  width: 3.2rem;
+}
+
+#nav {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  margin-top: 10%;
+  height: 95vh;
+  width: 100vw;
+  background-color: rgba(33, 120, 199, 0.95);
+  z-index: 100;
+  transition: .5s;
 }
 
 .navbar--img {
@@ -290,15 +318,15 @@ p {
 }
 
 .test {
-  height: 15.625rem;
-  width: 43.75rem;
+  max-height: 50%;
+  max-width: 40rem;
   background: rgba(250, 250, 250, 0.8);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   color: black;
-  padding: 1.875rem;
+  padding: 1.75rem;
   margin: 1.875rem;
   border: .5rem solid #eee;
 }
@@ -332,9 +360,24 @@ p {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 43.75rem;
-  padding: .625rem;
+  max-width: 40rem;
+  padding: 1.75rem;
   border: .5rem solid #eee;
+}
+
+div.button-test.button {
+  max-width: 10%;
+  padding: .875rem;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  border: 3px solid #ddd;
+  justify-content: center;
+}
+
+.button-test a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
 }
 
 /******************************RESOURCES********************************************************/
@@ -392,7 +435,7 @@ footer {
 	grid-column-gap: 3.125rem;
 	background: #ededed;
 	padding: 5rem;
-	height: 31.25rem;
+	height: 100%;
 }
 
 .footer-left {
@@ -494,10 +537,6 @@ footer {
 
   .hero--text h1 {
     margin-bottom: 1rem;
-  }
-
-  .testimonials {
-    overflow: hidden;
   }
 
   .testimonials--heading {
@@ -627,6 +666,10 @@ footer {
     height: 60vh;
   }
 
+  div.button-test.button {
+    max-width: 20%;
+  }
+
   .resources {
     background-position: right;
     background-size: cover;
@@ -637,4 +680,167 @@ footer {
   html {
     font-size: 8px;
   }
+
+  h2 {
+
+  }
+
+  h3 {
+
+  }
+
+  h4 {
+
+  }
+
+  p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .navbar-mobile {
+    display: flex;
+  }
+
+  .navbar--logo-mobile {
+    width: 25rem;
+  }
+
+  .hamburger {
+    width: 3.2rem;
+  }
+
+
+
+  .navbar--list-mobile a {
+    color: white;
+    margin: 1rem;
+    text-decoration: none;
+    font-size: 3rem;
+  }
+
+  #dropdown-mobile {
+    display: none;
+  }
+
+  .float-phone svg {
+    height: 6rem;
+    width: 6rem;
+  }
+
+  .hero {
+    background-image: linear-gradient( to right bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../assets/LindleyPhotos/IMG_7850.jpg");
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  .hero--text {
+    height: 25rem;
+  }
+
+  .hero--text h1 {
+    font-size: 3.5rem;
+  }
+
+  .about {
+    height: 100%;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    padding: 3rem;
+  }
+
+  .about--text {
+    height: ;
+    width: 85vw;
+    height: 50vh;
+    padding: 1rem;
+  }
+
+  .about-text h2 {
+    margin-bottom: 0;
+  }
+
+  .about--btn {
+    margin: 1rem;
+  }
+
+  .about img {
+    width: 95%;
+    margin-bottom: 1rem;
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(11, 1fr);
+    grid-template-areas: unset;
+  }
+
+  #spacer {
+    display: none;
+  }
+
+  .testimonials {
+    overflow: scroll;
+  }
+
+  .boxy {
+    flex-direction: column;
+    padding: 2rem;
+    margin: 2rem 0;
+  }
+
+  .test, .test2 {
+    padding: 1rem;
+  }
+
+  .resources {
+    padding: 3rem 0;
+  }
+
+  .resources--btn {
+    flex-direction: column;
+    margin: 2rem 2rem 0 2rem;
+    justify-content: center;
+  }
+
+  .button {
+    justify-content: center;
+  }
+
+  footer {
+    grid-template-columns: 1fr;
+    padding: 2rem;
+  }
+
+  .icons img {
+    height: 2.5rem;
+  }
+
+  .footer-right {
+    margin-top: 4rem;
+
+  }
+
+  .footer-right h2 {
+    font-size: 4.5rem;
+    border-top: 2px solid #377BB9;
+    padding-top: 3rem;
+  }
+
+  .info {
+    flex-direction: column;
+    width: 60vw;
+  }
+
+  .ph-off {
+    margin: 0;
+  }
+
+
 }
