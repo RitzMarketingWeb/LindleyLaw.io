@@ -1,7 +1,7 @@
 .contact {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, auto);
+  grid-template-rows: repeat(4, auto);
   grid-gap: 1rem;
   background: linear-gradient(to right bottom,
     rgb(55, 123, 185),
@@ -136,6 +136,23 @@ fieldset {
 	#contact input[type="number"],
 	#contact textarea {
 	  font-size: 1.5rem;
+	}
+
+	#contact {
+	  grid-column: 1;
+	  grid-row: 3;
+	}
+
+	.heading {
+	  font-size: 2rem;
+	  grid-column: 1;
+	  grid-row: 1;
+	}
+
+	.form-title {
+	  grid-column: 1;
+	  grid-row: 2;
+	  padding: 0 6rem;
 	}
 
 }
