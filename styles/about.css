@@ -9,7 +9,7 @@
   background-image: linear-gradient( to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../assets/LindleyPhotos/trey_desk.jpg");
   background-size: cover;
   background-position: top;
-  padding: 12rem 16rem;
+  padding: 12rem 10rem;
 	display: flex;
 	justify-content: flex-start;
 }
@@ -18,7 +18,7 @@
   background-image: linear-gradient( to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../assets/LindleyPhotos/satie_desk.jpg");
   background-size: cover;
   background-position: center;
-  padding: 12rem 16rem;
+  padding: 12rem 10rem;
   display: flex;
   justify-content: flex-end;
 }
@@ -27,7 +27,7 @@
   background-image: linear-gradient( to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../assets/LindleyPhotos/kat_desk.jpg");
   background-size: cover;
   background-position: center;
-  padding: 12rem 16rem;
+  padding: 12rem 10rem;
 	display: flex;
 	justify-content: flex-start;
 }
@@ -120,6 +120,6 @@
 	  display: none;
 	}
 
-	.about-name2 .button {
-		
+	.footer-logo {
+		height: 20rem
 	}

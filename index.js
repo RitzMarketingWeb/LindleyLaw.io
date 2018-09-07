@@ -1,3 +1,14 @@
+var menu = document.getElementById("hamburger"),
+    x = document.getElementById("nav");
+
+function menuShow() {
+  if (x.style.display === "none") {
+    x.style.display = "flex";
+  } else {
+    x.style.display = "none"
+  }
+}
+
 
 var law = document.getElementById("law"),
     drop = document.getElementById("dropdown");
@@ -34,18 +45,3 @@ for(i = 0; i < acc.length; i++) {
 		}
 	}
 }
-
-var menu = document.getElementById("hamburger");
-var nav = document.getElementById("nav");
-
-menu.addEventListener("mouseover", function() {
-  nav.style.display = "flex";
-});
-
-menu.addEventListener("click", function() {
-  nav.style.display = "none";
-});
-
-window.addEventListener("click", function() {
-  nav.style.display = "none";
-});

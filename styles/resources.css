@@ -61,7 +61,7 @@
 	text-transform: uppercase;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
 
 	h2 {
 		font-size: 2.5rem
@@ -71,14 +71,14 @@
 		font-size: 2rem;
 	}
 
-	.top {
-		padding-top: 9rem
-	}
-
 	.links--wrapper {
 		flex-direction: column;
 		margin: 4rem;
 		text-align: center;
+	}
+
+	.top {
+		padding-top: 9rem
 	}
 
 	.court-resources {
@@ -97,5 +97,11 @@
 
 	.govmnt {
 		margin-top: 3rem
+	}
+}
+
+@media (max-width: 500px) {
+	.top {
+		padding-top: 9rem
 	}
 }

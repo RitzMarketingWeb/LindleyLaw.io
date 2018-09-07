@@ -2,7 +2,6 @@
 font-family: 'Cormorant', serif; 600, 700
 font-family: 'Lora', serif;
 */
-
 * {
   margin: 0;
   padding: 0;
@@ -27,7 +26,7 @@ h2 {
   text-transform: uppercase;
 }
 
-h3{
+h3 {
   font-family: 'Cormorant', serif;
   font-weight: 600;
   font-size: 2.3rem;
@@ -46,7 +45,6 @@ p {
 }
 
 /**********************NAVBAR**********************************************/
-
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -71,6 +69,7 @@ p {
 
 .hamburger {
   width: 3.2rem;
+  cursor: pointer;
 }
 
 #nav {
@@ -79,8 +78,8 @@ p {
   justify-content: center;
   align-items: center;
   position: fixed;
-  margin-top: 10%;
-  height: 95vh;
+  margin-top: 5rem;
+  height: 100vh;
   width: 100vw;
   background-color: rgba(33, 120, 199, 0.95);
   z-index: 100;
@@ -145,6 +144,17 @@ p {
   background: #ddd
 }
 
+.dropdown-mobile {
+  display: none;
+}
+
+.navbar--list-mobile hr {
+  color: #fff;
+  background-color: #fff;
+  height: 3px;
+  width: 45%;
+}
+
 .float-phone {
   position: fixed;
   right: 1%;
@@ -152,17 +162,15 @@ p {
 }
 
 /*********************************HERO***************************************************/
-
 .hero {
   height: 88vh;
   width: 100vw;
-  background-image: linear-gradient( to right bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../assets/LindleyPhotos/IMG_7850.jpg");
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../assets/LindleyPhotos/IMG_7850.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-
 }
 
 .hero--text {
@@ -187,16 +195,14 @@ p {
   margin-bottom: 1.5rem;
 }
 
-
 /**********************************ABOUT******************************************/
-
 .about {
   height: 85vh;
   width: 100vw;
-  background: rgb(255,255,255);
-  background: -moz-linear-gradient(169deg, rgba(255,255,255,1) 6%, rgba(221,221,221,1) 51%);
-  background: -webkit-linear-gradient(169deg, rgba(255,255,255,1) 6%, rgba(221,221,221,1) 51%);
-  background: linear-gradient(169deg, rgba(255,255,255,1) 6%, rgba(221,221,221,1) 51%);
+  background: rgb(255, 255, 255);
+  background: -moz-linear-gradient(169deg, rgba(255, 255, 255, 1) 6%, rgba(221, 221, 221, 1) 51%);
+  background: -webkit-linear-gradient(169deg, rgba(255, 255, 255, 1) 6%, rgba(221, 221, 221, 1) 51%);
+  background: linear-gradient(169deg, rgba(255, 255, 255, 1) 6%, rgba(221, 221, 221, 1) 51%);
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -245,7 +251,6 @@ p {
 }
 
 /************************************PRACTICE****************************************/
-
 .practice {
   height: 100%;
   width: 100%;
@@ -265,7 +270,7 @@ p {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-gap: 1.25rem 1.25rem;
-  grid-template-areas: ". . ." ". . ." ". . .";
+  grid-template-areas: ". . ."". . ."". . .";
   padding: 4rem 6rem;
   padding-bottom: 6rem;
 }
@@ -295,10 +300,9 @@ p {
 }
 
 /***********************************TESTIMONIALS*****************************************/
-
 .testimonials {
   height: 70vh;
-  background-image: linear-gradient( to right bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/LindleyPhotos/IMG_7844 (1).jpg");
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/LindleyPhotos/IMG_7844 (1).jpg");
   background-size: cover;
   background-position: center;
   overflow: scroll;
@@ -381,76 +385,71 @@ div.button-test.button {
 }
 
 /******************************RESOURCES********************************************************/
-
 .resources {
-  background-image: linear-gradient( to right bottom, rgba(0, 0, 20, 0.6), rgba(0, 0, 20, 0.6)), url("http://www.seasongoodlaw.com/wp-content/uploads/2018/03/law-books.jpg");
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 20, 0.6), rgba(0, 0, 20, 0.6)), url("http://www.seasongoodlaw.com/wp-content/uploads/2018/03/law-books.jpg");
   padding: 3rem;
   border: 1.875rem solid #bbb;
 }
 
 .button {
-	background: rgba(255, 255, 255, 0.7);
-	padding: 1.875rem 4.375rem;
-	border: 5px solid white;
-	display: flex;
-	justify-content: space-between;
-	text-transform: uppercase;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 1.875rem 4.375rem;
+  border: 5px solid white;
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
 }
 
 .resources--heading {
-	padding: 2rem;
-	text-align: center;
-	font-size: 3.2rem;
+  padding: 2rem;
+  text-align: center;
+  font-size: 3.2rem;
   color: white;
 }
 
 .btn {
-	text-decoration: none;
-	color: black;
+  text-decoration: none;
+  color: black;
   text-align: center;
 }
 
 .middle-btn {
-	padding: 1.875rem;
+  padding: 1.875rem;
 }
 
 .resources--btn {
-	display: flex;
-	justify-content: space-around;
-	margin: 2rem 12rem 0 12rem;
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem 12rem 0 12rem;
   font-size: 1.5rem;
 }
 
 .court-links {
-	margin-bottom: 8rem;
+  margin-bottom: 8rem;
 }
 
 /*********************FOOTER***************************************************************/
-
-
-
 footer {
-	display: grid;
-	grid-template-columns: 1fr 2fr;
-	grid-column-gap: 3.125rem;
-	background: #ededed;
-	padding: 5rem;
-	height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-column-gap: 3.125rem;
+  background: #ededed;
+  padding: 5rem;
+  height: 100%;
 }
 
 .footer-left {
-	display: grid;
-	justify-items: center;
-	align-items: center;
+  display: grid;
+  justify-items: center;
+  align-items: center;
 }
 
 .footer-left img:last-of-type {
-	align-self: flex-end;
+  align-self: flex-end;
 }
 
 .icons {
   display: flex;
-
 }
 
 .icons img {
@@ -460,17 +459,16 @@ footer {
 }
 
 .footer-right {
-	display: flex;
-	flex-direction: column;
-	text-align: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
   color: #2f52aa;
-
 }
 
 .footer-right h2 {
-	width: 31.25rem;
-	margin: 0 auto;
-	text-transform: uppercase;
+  width: 31.25rem;
+  margin: 0 auto;
+  text-transform: uppercase;
   font-size: 3.2rem
 }
 
@@ -480,19 +478,19 @@ footer {
 }
 
 .info {
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	margin: 1rem auto;
-	width: 40vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1rem auto;
+  width: 40vw;
 }
 
 .ph-off {
-	margin-left: -2.5rem;
+  margin-left: -2.5rem;
 }
 
 .ph {
-	margin: 1.875rem 0;
+  margin: 1.875rem 0;
 }
 
 .ph a {
@@ -502,7 +500,7 @@ footer {
 }
 
 .street {
-	margin: 1.875rem 0;
+  margin: 1.875rem 0;
   font-size: 1.3rem
 }
 
@@ -511,13 +509,13 @@ footer {
 }
 
 .sub-footer {
-	background: #555;
-	color: white;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 1rem 2.5rem;
-	text-transform: uppercase;
+  background: #555;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2.5rem;
+  text-transform: uppercase;
 }
 
 .sub-footer p {
@@ -574,7 +572,6 @@ footer {
   .logo {
     width: 70%
   }
-
 }
 
 @media (max-width: 1440px) {
@@ -592,9 +589,9 @@ footer {
   }
 
   .resources--btn {
-  	display: flex;
-  	justify-content: space-around;
-  	margin: 2rem 12rem 0 12rem;
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 12rem 0 12rem;
     font-size: 1.25rem;
   }
 
@@ -605,7 +602,7 @@ footer {
 }
 
 @media (max-width: 1200px) {
-  html{
+  html {
     font-size: 11.5px;
   }
 
@@ -676,22 +673,42 @@ footer {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 900px) {
+  html {
+    font-size: 9px;
+  }
+
+  .navbar--list-item {
+    padding: 2.5rem 1rem;
+  }
+
+  .about {
+    height: 50vh
+  }
+
+  .practice--grid-link {
+    text-align: center;
+  }
+
+  .testimonials {
+    height: 50vh;
+  }
+
+  .resources--btn {
+    margin: 2rem 2rem 0 2rem
+  }
+}
+
+@media (max-width: 680px) {
   html {
     font-size: 8px;
   }
 
-  h2 {
+  h2 {}
 
-  }
+  h3 {}
 
-  h3 {
-
-  }
-
-  h4 {
-
-  }
+  h4 {}
 
   p {
     font-size: 1.5rem;
@@ -714,8 +731,6 @@ footer {
     width: 3.2rem;
   }
 
-
-
   .navbar--list-mobile a {
     color: white;
     margin: 1rem;
@@ -733,15 +748,17 @@ footer {
   }
 
   .hero {
-    background-image: linear-gradient( to right bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../assets/LindleyPhotos/IMG_7850.jpg");
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../assets/LindleyPhotos/IMG_7850.jpg");
     background-position: left;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    justify-content: center;
   }
 
   .hero--text {
     height: 25rem;
+    margin-right: 0;
   }
 
   .hero--text h1 {
@@ -751,14 +768,13 @@ footer {
   .about {
     height: 100%;
     flex-direction: column-reverse;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 3rem;
   }
 
   .about--text {
-    height: ;
     width: 85vw;
-    height: 50vh;
+    height: 100%;
     padding: 1rem;
   }
 
@@ -772,7 +788,7 @@ footer {
 
   .about img {
     width: 95%;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
 
   .grid-container {
@@ -824,7 +840,6 @@ footer {
 
   .footer-right {
     margin-top: 4rem;
-
   }
 
   .footer-right h2 {
@@ -842,5 +857,13 @@ footer {
     margin: 0;
   }
 
+  .footer-logo {
+    height: 20rem
+  }
+}
 
+@media (max-width: 320px) {
+  html {
+    font-size: 6.5px
+  }
 }
