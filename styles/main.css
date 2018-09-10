@@ -522,6 +522,11 @@ footer {
   font-size: .875rem;
 }
 
+.sub-footer a {
+  text-decoration: none;
+  color: #24a6d1;
+}
+
 @media (max-width: 1920px) {
   html {
     font-size: 15px;
