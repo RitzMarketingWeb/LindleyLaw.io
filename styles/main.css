@@ -302,7 +302,7 @@ p {
 /***********************************TESTIMONIALS*****************************************/
 .testimonials {
   height: 70vh;
-  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/LindleyPhotos/IMG_7844 (1).jpg");
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/LindleyPhotos/IMG_7844.jpg");
   background-size: cover;
   background-position: center;
   overflow: scroll;
