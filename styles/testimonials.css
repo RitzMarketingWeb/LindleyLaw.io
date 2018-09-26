@@ -18,7 +18,7 @@
 
 .testimonials {
   height: 90vh;
-  background-image: linear-gradient( to right bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/LindleyPhotos/IMG_7850.jpg");
+  background-image: linear-gradient( to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../assets/LindleyPhotos/courthouse.jpg");
   background-size: cover;
   background-position: center;
   overflow: scroll;
